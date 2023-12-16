@@ -16,11 +16,11 @@
 // The game is usually best 2 out of 3 wins.
 
 const choices = ["Rock", "Paper", "Scissors"];
-let score = 0;
 
 let getComputersChoice = (arr) => arr[Math.floor(Math.random() * arr.length)];
-
 const computersChoice = getComputersChoice(choices);
+
+console.log(computersChoice);
 
 function getRock() {
     const playerSelection = `Rock`;
@@ -49,5 +49,5 @@ function getScissors() {
         alert(`It's a tie! You both selected ${computersChoice}`);
     } else if (computersChoice === choices[0]) {
         alert(`You lost! Rock beats Scissors`);
-    } else alert(`You won! Scissors beats Papaer`);
+    } else alert(`You won! Scissors beats Paper`);
 }

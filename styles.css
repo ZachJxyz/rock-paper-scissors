@@ -7,20 +7,23 @@ body {
 
 h1 {
     font-family: luminari, fantasy;
-    font-size: 8rem;
+    font-size: 100px;
     margin: 0px;
     padding: 0px;
 }
 
 p {
-    font-size: 2rem;
     font-weight: 600;
 }
 
 button {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    font-weight: 900;
     width: 200px;
-    padding: 15px;
-    font-size: 1.3rem;
+    padding: 25px;
     border-radius: 45px;
     border-width: thick;
     border-color: black;
@@ -55,9 +58,8 @@ button:hover {
 }
 
 .container {
-    /* background-color: plum; */
-    /* display: flex; */
-    /* flex-wrap: wrap; */
-    /* justify-content: center; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     gap: 25px;
 }
